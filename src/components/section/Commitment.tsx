@@ -1,5 +1,6 @@
 import { LayoutContainer } from '../LayoutContainer'
 import { Box, Heading, SimpleGrid, Text } from '@chakra-ui/react'
+import { FaArrowRight } from "react-icons/fa";
 
 export const Commitment = () => {
     return (
@@ -36,6 +37,7 @@ export const Commitment = () => {
                         commitments
                     </Heading>
                     <Text color='black.600' fontSize={'md'}>We are committed to working with you collaboratively to understand your goals and create a strategy that will achieve them.</Text>
+                    <Text color='blue.900' fontSize={'md'} display='flex' alignItems='center' gap={2}>Learn More <FaArrowRight /></Text>
                 </Box>
             </SimpleGrid>
         </LayoutContainer>

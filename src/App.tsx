@@ -3,6 +3,7 @@ import { NavBar } from './components/NavBar';
 import { Commitment } from './components/section/Commitment';
 import { CompanyWorked } from './components/section/CompanyWorked';
 import { Hero } from './components/section/Hero';
+import { OurServices } from './components/section/OurServices';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Hero />
       <CompanyWorked />
       <Commitment />
+      <OurServices />
     </div>
   );
 }
