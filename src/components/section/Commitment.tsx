@@ -34,7 +34,7 @@ export const Commitment = () => {
                 </SimpleGrid>
                 <Box gap={7} display='flex' flexDir='column' textAlign={'left'}>
                     <Heading as='h1' fontSize={{ base: '4xl', md: '6xl' }} fontWeight='bold' lineHeight='1'>
-                        commitments
+                        Commitments
                     </Heading>
                     <Text color='black.600' fontSize={'md'}>We are committed to working with you collaboratively to understand your goals and create a strategy that will achieve them.</Text>
                     <Text color='blue.900' fontSize={'md'} display='flex' alignItems='center' gap={2}>Learn More <FaArrowRight /></Text>

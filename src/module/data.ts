@@ -50,4 +50,28 @@ const companyData = [
         pictUrl: '/assets/image/asana.png',
     },
 ]
-export { companyData }
+
+const accordionData = [
+    {
+        title: 'How do i sign up for the project?',
+        description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+        commodo consequat.`,
+    },
+    {
+        title: 'What thing that i should prepare before starting?',
+        description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+        commodo consequat.`,
+    },
+    {
+        title: 'Does my company need help for infrastructure advices?',
+        description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+        commodo consequat.`,
+    },
+]
+export { companyData, accordionData }

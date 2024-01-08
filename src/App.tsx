@@ -3,6 +3,7 @@ import { NavBar } from './components/NavBar';
 import { Commitment } from './components/section/Commitment';
 import { CompanyWorked } from './components/section/CompanyWorked';
 import { Cta } from './components/section/Cta';
+import { Help } from './components/section/Help';
 import { Hero } from './components/section/Hero';
 import { OurServices } from './components/section/OurServices';
 
@@ -16,6 +17,7 @@ function App() {
       <OurServices />
       {/* Add Testimoni here */}
       <Cta />
+      <Help />
     </div>
   );
 }
