@@ -116,6 +116,7 @@ const NavBarContainer = ({ children, ...props }: FlexProps & { children: ReactNo
             position='fixed'
             bg='white'
             zIndex={1000}
+            top={0}
             justifyContent='center'
             {...props}
         >
