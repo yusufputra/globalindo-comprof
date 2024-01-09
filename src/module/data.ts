@@ -42,7 +42,7 @@ const companyData = [
     {
         id: 8,
         name: 'Amazon',
-        pictUrl: '/assets/image/Amazon.png',
+        pictUrl: '/assets/image/amazon.png',
     },
     {
         id: 9,
