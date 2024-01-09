@@ -6,11 +6,20 @@ const colors = {
   },
   black: {
     200: "#333333",
+    300: "#4d4d4d",
     600: "#999999",
     980: "#fafafa",
   },
+  grey: {
+    100: "#F8F9FF",
+  },
 };
 
-const customTheme = extendTheme({ colors });
+const fonts = { heading: `"DM Sans", sans-serif` };
+
+const customTheme = extendTheme({
+  colors,
+  fonts,
+});
 
 export { customTheme };

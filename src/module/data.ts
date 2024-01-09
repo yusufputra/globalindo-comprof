@@ -74,4 +74,25 @@ const accordionData = [
         commodo consequat.`,
     },
 ]
-export { companyData, accordionData }
+
+const testimonialData = [
+    {
+        profilePict: '/assets/image/photo.png',
+        name: 'Amelia Joseph',
+        position: 'Chief Manager',
+        description: 'My vision came alive effortlessly. Their blend of casual and professional approach made the process a breeze. Creativity flowed, and the results were beyond my expectations.'
+    },
+    {
+        profilePict: '/assets/image/photo1.png',
+        name: 'Jacob Joshua',
+        position: 'Chief Manager',
+        description: `I found the digital expertise I needed. Their creative-professional balance exceeded expectations. Friendly interactions, exceptional outcomes. For digital enchantment, it's got to be Embrace!`
+    },
+    {
+        profilePict: '/assets/image/photo2.png',
+        name: 'Jacob Amalia',
+        position: 'Chief Manager',
+        description: `Embrace really nails it! Creative brilliance, approachable style. They're the partners you want—artistry meets strategy. Thrilled with what they achieved!"`
+    },
+]
+export { companyData, accordionData, testimonialData }

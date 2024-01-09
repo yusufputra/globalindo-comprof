@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+
 .App {
   text-align: center;
   background-color: 'white';
@@ -7,4 +9,5 @@
   align-items: center;
   align-content: center;
   padding: 8px;
+  font-family: 'DM Sans', sans-serif;
 }
